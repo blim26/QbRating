@@ -37,7 +37,7 @@ public class QbRating {
 	double d = (2.375 - (INT/ATT*25));
 	
 	double Passer_Rating = (a + b + c + d)/6*100;
-	
+	//This will give the total QBR
 	Passer_Rating = Math.round(10*Passer_Rating)/((double)10);
 	System.out.println(name + "'s QBR is " + Passer_Rating);
 	}
